@@ -1,0 +1,24 @@
+download terrafrom in windows
+---
+http://man.hubwiz.com/docset/Terraform.docset/Contents/Resources/Documents/downloads.html
+---
+go to downloads file 
+right click-> extract all
+---
+C:\terrafrom
+ save
+ ----
+ open windows powershell
+ check terrafrom 
+ --
+ serch enviroment edit varible
+ click path -> click edit
+ --
+ type C:\terraform 
+ ok
+ ok
+-----
+after check terrafrom windows powershell
+ --
+ go to command promte check version in teerafrom
+ 
