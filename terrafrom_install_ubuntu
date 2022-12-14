@@ -1,0 +1,18 @@
+ubuntu installation terrafrom 
+
+wget https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip
+sudo apt-get install zip -y
+unzip terraform_0.11.13_linux_amd64
+mv terrafrom /usr/local/bin
+terrafrom --version
+mkdir terrafrom 
+cd terrafrom
+touch main.tf
+terrafrom init
+
+terrafrom plan
+terrafrom apply
+
+
+terrafrom destory
+
