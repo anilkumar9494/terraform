@@ -27,8 +27,8 @@ after check terrafrom windows powershell
 
 provider "aws" {
   region = "ap-southeast-1"
-  access_key = ""
-  secret_key = ""
+  access_key = " access key"
+  secret_key = "secure-key"
 }
 
 resource "aws_instance" "example" {
